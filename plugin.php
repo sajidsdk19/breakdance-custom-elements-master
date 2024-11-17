@@ -20,7 +20,7 @@ add_action('breakdance_loaded', function () {
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/elements',
         'SajidCustomElements',
-        'Sajid element',
+        'element',
         'Sajid Custom Elements',
         false
     );
@@ -28,7 +28,7 @@ add_action('breakdance_loaded', function () {
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/macros',
         'SajidCustomElements',
-        'Sajid macro',
+        'macro',
         'Sajid Custom Macros',
         false
     );
@@ -36,7 +36,7 @@ add_action('breakdance_loaded', function () {
     \Breakdance\ElementStudio\registerSaveLocation(
         getDirectoryPathRelativeToPluginFolder(__DIR__) . '/presets',
         'SajidCustomElements',
-        'Sajid preset',
+        'preset',
         'Sajid Custom Presets',
         false
     );
