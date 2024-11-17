@@ -22,7 +22,7 @@ add_action('breakdance_loaded', function () {
         'SajidCustomElements',
         'Sajid element',
         'Sajid Custom Elements',
-        false,
+        false
     );
 
     \Breakdance\ElementStudio\registerSaveLocation(
@@ -30,7 +30,7 @@ add_action('breakdance_loaded', function () {
         'SajidCustomElements',
         'Sajid macro',
         'Sajid Custom Macros',
-        false,
+        false
     );
 
     \Breakdance\ElementStudio\registerSaveLocation(
@@ -38,7 +38,7 @@ add_action('breakdance_loaded', function () {
         'SajidCustomElements',
         'Sajid preset',
         'Sajid Custom Presets',
-        false,
+        false
     );
 },
     // register elements before loading them
