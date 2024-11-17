@@ -5,11 +5,11 @@
  * Plugin URI: https://breakdance.com/
  * Description: Boilerplate plugin to save your custom elements created with Element Studio.
  * Author: Sajid
- * Author URI: https://breakdance.com/
+ * Author URI: https://techscape.pk/
  * License: GPLv2
  * Text Domain: breakdance
  * Domain Path: /languages/
- * Version: 0.0.1
+ * Version: 1.0.0
  */
 
 namespace BreakdanceCustomElements;
